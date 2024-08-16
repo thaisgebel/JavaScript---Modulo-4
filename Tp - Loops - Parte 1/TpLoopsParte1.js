@@ -154,13 +154,3 @@ function numbersOddEven() {
 }
 numbersOddEven();
 
-function cp(calif) {
-  let contador = 0;
-  let promedio = 0;
-
-  while (contador < calif.length) {
-    promedio += calif[contador];
-    contador++;
-  }
-  console.log(promedio / contador);
-}
